@@ -64,6 +64,7 @@ vector<int> make_reverse_sorted_data(size_t n) {
     return v;
 }
 
+// Перечисление, задающее тип входных данных: случайные, отсортированные и обратно отсортированные массивы
 enum class DataType { Random, Sorted, ReverseSorted };
 
 // Возвращает строковое представление типа данных
